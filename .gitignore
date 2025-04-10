@@ -1,0 +1,60 @@
+# -----------------------------------
+# Laravel (backend)
+# -----------------------------------
+backend/vendor/
+backend/public/build/
+backend/public/hot/
+backend/public/storage/
+backend/storage/*.key
+backend/storage/logs/
+backend/storage/framework/cache/data/
+backend/storage/framework/sessions/
+backend/storage/framework/testing/
+backend/storage/framework/views/
+backend/bootstrap/cache/*.php
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/.phpunit.result.cache
+backend/.phpunit.cache
+
+backend/Homestead.json
+backend/Homestead.yaml
+backend/auth.json
+
+# SQLite (optional)
+backend/database/*.sqlite
+
+# Telescope/Horizon logs (optional)
+backend/storage/telescope/
+backend/horizon.log
+
+# -----------------------------------
+# React / Node / Vite (frontend)
+# -----------------------------------
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+frontend/resources/js/.vite/
+frontend/resources/js/node_modules/
+frontend/resources/js/dist/
+
+# -----------------------------------
+# IDEs & OS junk (backend + frontend)
+# -----------------------------------
+*.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+backend/.idea/
+backend/.vscode/
+backend/.fleet/
+
+frontend/.idea/
+frontend/.vscode/
+frontend/.fleet/
